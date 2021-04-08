@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+li {
+    list-style-type: none;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.title {
+ text-align: center;
+ color: rgb(94, 92, 92);
+ font-family: 'Roboto', sans-serif;
+ text-transform: uppercase;
+ font-size: 18px;
+}
+
+.list {
+display: flex;
+width: 300px;
+flex-direction: row;
+padding: 0;
+}
+
+.item1 {
+ display: flex;
+ flex-direction: column;
+ width: 75px;
+ height: 70px;
+ align-items: center;
+ justify-content: space-around;
+ background-color: rgb(126, 187, 245);
+}
+
+.label1 {
+    color: white;
+}
+
+.percentage1 {
+  font-size: 20px;
+  color: white;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(124, 39, 236);
+}
+
+.label2 {
+  color: white;
+}
+
+.percentage2 {
+    font-size: 20px;
+    color: white;
+}
+.item3 {
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(246, 44, 88);
+}
+
+.label3 {
+    color: white;
+}
+
+.percentage3 {
+    font-size: 20px;
+    color: white;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(50, 204, 178);
+}
+
+.label4 {
+    color: white;
+}
+
+.percentage4 {
+    font-size: 20px;
+    color: white;
+}
